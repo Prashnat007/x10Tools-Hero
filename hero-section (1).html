@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to bottom, #1a1a2e, #16213e);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-container {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .welcome-badge {
+            background: transparent;
+            border: 1px solid #ff2e9f;
+            color: white;
+            padding: 0.5rem 1.5rem;
+            border-radius: 50px;
+            display: inline-block;
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+        }
+
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            color: white;
+        }
+
+        .hero-title span {
+            color: #666;
+        }
+
+        .hero-subtitle {
+            color: #8b8b9f;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .explore-btn {
+            background: linear-gradient(to right, #9c27b0, #673ab7);
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            border: none;
+            font-weight: 500;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .learn-more-btn {
+            background: transparent;
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            border: 1px solid white;
+            font-weight: 500;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .explore-btn:hover, .learn-more-btn:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="hero-container">
+        <div class="welcome-badge">WELCOME TO X10 TOOLS</div>
+        <h1 class="hero-title">
+            Advance <span>Online Tools</span> Hub
+        </h1>
+        <p class="hero-subtitle">
+            All The Tools You Need In One Place With 10x Faster Result
+        </p>
+        <div class="button-container">
+            <button class="explore-btn">EXPLORE TOOLS</button>
+            <button class="learn-more-btn">LEARN MORE</button>
+        </div>
+    </div>
+</body>
+</html>
